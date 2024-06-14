@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    margin: 0;
+}
+.Video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container{ 
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    border:10px gold double;
+    margin: 20px auto; 
+    text-align: center; 
+    max-width: 550px;
+    max-height: 680px;
+}
+.botao{
+    padding-right: 450px;
+    padding-top: 25px;
+
+}
+.botaoimg{
+    border: none;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+}
+
+a{ 
+    text-decoration: none;
+}
+h1{
+    font-size: 3em; 
+    margin-bottom: 8px;
+}
+h2{
+    font-size: 
+    1.5em; margin: 8px 0 16px; 
+    color: #191919; 
+    font-weight: 400;
+}
+header img{ 
+    width: 150px; 
+    border-radius: 50%;
+    
+}
+header hr{ 
+    width: 50px; height: 3px;; 
+    background: gold;
+}
+header h2{
+    font-weight: bold;
+    color: gold;
+}
+.blocos{
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+}
+.bloco1{
+    background-color: gold;
+    padding-top: 5px;
+    border-radius: 10%;
+    width: 180px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: start;
+}
+
+.paragrafo {
+    display: flex;
+    border-bottom: 3px dashed black;
+}
+
+.formado01 {
+    display: flex;
+    margin-left: 15px;
+}
+.formado011 {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 0%;
+}
+.respF1{
+    margin-top: 2px;
+    text-decoration:dashed underline overline;
+    font-weight: bold; 
+}
+.respF11{
+    margin-top: -12px;
+    text-decoration:dashed underline overline;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.respF2{
+    margin-top: 0px;
+    text-decoration:dashed underline overline;
+    font-weight: bold;
+}
+
+.blocos h4{
+    margin: 18px 0px 0px 0px;
+    text-align: start;
+}
+.bloco1 img{
+    position: relative;
+    padding-top: 6px;
+    padding-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.icone-social {
+    margin: 0 8px;
+}
+.icone-social img{
+    width: 24px;
+}
+footer a{
+    color: #db0624;
+}
